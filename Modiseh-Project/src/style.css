@@ -55,3 +55,15 @@ label {
   height: 100%;
   object-fit: cover;
 }
+
+/* Partitions */
+.placeholder-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  border-radius: 8px;
+}
