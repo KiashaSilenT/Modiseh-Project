@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    text-decoration: none !important;
+    list-style: none;
+}
+
+
+body {
+  background: #000;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+
+.menu li{
+  cursor: pointer;
+  transition: all .5s;
+
+}
+
+.menu li:hover{
+  color: brown;
+}
+
+
+.main-header{
+  padding: 1rem 0;
+}
+
+label{
+  width: 100%;
+}

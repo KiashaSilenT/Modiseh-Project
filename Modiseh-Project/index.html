@@ -4,14 +4,68 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>فروشگاه اینترنتی مدیسه</title>
-  <link rel="stylesheet" href="./src/style.css" >
+  <link rel="stylesheet" href="./src/style.css">
   <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
 </head>
 <body>
   
+<!-- Header -->
+<header>
+    <div>
+      <img src="./public/gif/header.gif" alt="header" style="width: 100%;" >
+    </div>
+  
+    <div class="container-fluid">
+      <div class="row text-center main-header">
+        <div class="col-4">
+          <img src="./public/img/logo.png" alt="Logo">  
+        </div>
+        <div class="col-4">        
+            <label>
+              <input type="search" class="form-control bg-body-secondary" placeholder="جست و جو کنید ....">
+            </label>
+        </div>
+        <div class="col-4">
+
+          <button class="btn">
+            <img src="./public/svg/shopping-bagg.svg" alt="cart">
+          </button>
+
+
+          <button class="btn">
+            <a href="#" class="text-black">وارد شوید</a>
+          </button>
+        </div>
+        <ul class="row menu" style="margin-top: 1rem;">
+          <li class="col">زنانه</li>
+          <li class="col">مردانه</li>
+          <li class="col">بچگانه</li>
+          <li class="col">آرایشی و بهداشتی</li>
+          <li class="col">لوازم خانه</li>
+          <li class="col">سوپرمارکت</li>
+          <li class="col">الکترونیک</li>
+          <li class="col">سفر و ورزش</li>
+          <li class="col">هدیه</li>
+        </ul>
+      </div>
+    </div>
+</header>
+
 
 
 
   <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+
+  <script>
+
+var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+
+  </script>
 </body>
 </html>
