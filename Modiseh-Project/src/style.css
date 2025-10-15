@@ -67,3 +67,37 @@ label {
   color: #999;
   border-radius: 8px;
 }
+
+/* CSS to show on hover */
+.dropdown:hover > .dropdown-menu {
+  display: block;
+  /* also add .show class styles if needed */
+}
+
+/* Prevent sticky behavior when clicking the toggle */
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+}
+
+.drop {
+  width: fit-content;
+  height: 100%;
+  position: relative;
+  .down {
+    width: 50vh;
+    height: 400px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px black;
+    position: absolute;
+    top: 40px;
+    display: none;
+    padding: 20px;
+    z-index: 3;
+  }
+  &:hover {
+    cursor: pointer;
+    .down {
+      display: block;
+    }
+  }
+}
