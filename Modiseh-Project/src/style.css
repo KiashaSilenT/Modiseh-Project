@@ -60,7 +60,7 @@ label {
 .placeholder-img {
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200px;
+  min-height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,4 +100,8 @@ label {
       display: block;
     }
   }
+}
+
+.full-width {
+  width: 100%;
 }
